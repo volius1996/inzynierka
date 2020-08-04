@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.FourthFragment">
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/slider4"
+        app:layout_constraintStart_toStartOf="@+id/slider4"
+        app:layout_constraintTop_toBottomOf="@+id/slider4" />
+
+    <SeekBar
+        android:id="@+id/slider4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/StartTimePicker4"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Czas"
+        app:layout_constraintBottom_toTopOf="@+id/slider4"
+        app:layout_constraintEnd_toEndOf="@+id/slider4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/slider4" />
+
+    <TextView
+        android:id="@+id/StopTimePicker4"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Czas"
+        app:layout_constraintBottom_toTopOf="@+id/slider4"
+        app:layout_constraintEnd_toEndOf="@+id/slider4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/slider4" />
+
+    <TextView
+        android:id="@+id/startTextHour4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Początek"
+        app:layout_constraintBottom_toTopOf="@+id/StartTimePicker4"
+        app:layout_constraintEnd_toEndOf="@+id/StartTimePicker4"
+        app:layout_constraintStart_toStartOf="@+id/StartTimePicker4" />
+
+    <TextView
+        android:id="@+id/stopTextHour4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Koniec"
+        app:layout_constraintBottom_toTopOf="@+id/StopTimePicker4"
+        app:layout_constraintEnd_toEndOf="@+id/StopTimePicker4"
+        app:layout_constraintStart_toStartOf="@+id/StopTimePicker4" />
+
+    <TextView
+        android:id="@+id/sliderValue4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/slider4"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/slider4"
+        app:layout_constraintTop_toBottomOf="@+id/slider4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
